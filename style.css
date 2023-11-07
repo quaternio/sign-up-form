@@ -1,1 +1,10 @@
-/* TODO: put stuff in here */
+
+@font-face {
+  font-family: norse;
+  src: url("./assets/Norse-Bold.otf");
+}
+
+h1 {
+  font-family: norse, sans-serif;
+  background-color: red;
+}
