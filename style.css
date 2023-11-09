@@ -1,10 +1,39 @@
-
+/*
+ * Custom Norse Font
+ */
 @font-face {
   font-family: norse;
   src: url("./assets/Norse-Bold.otf");
 }
 
-h1 {
+.page-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.image .trees-image {
+  width: 36vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+}
+
+.image .odin-logo {
+  position: absolute;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.preamble {
+  margin: 20px;
+}
+
+.content .preamble p {
+  font-size: 24px;
   font-family: norse, sans-serif;
-  background-color: red;
 }
