@@ -12,15 +12,76 @@
   flex-direction: row;
 }
 
-.image .trees-image {
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 36vw;
   max-width: 100%;
   height: 100vh;
   max-height: 100%;
+  background: url("assets/trees.jpg");
+  background-size: cover;
 }
 
-.image .odin-logo {
-  position: absolute;
+.image .odin-banner {
+  position: relative;
+  top: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 36vw;
+  max-width: 100%;
+  height: 18vh;
+  max-height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.image .attribution {
+  position: relative;
+  top: 78vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.image .attribution p {
+  color: white;
+  font-size: 0.75rem;
+  font-family: sans-serif;
+}
+
+.odin-banner .logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.odin-banner .logo img {
+  position: relative;
+  flex: basis;
+  max-height: 100%;
+}
+
+.odin-banner .title {
+  position: relative;
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+}
+
+.odin-banner .title p {
+  font-size: 12vh;
+  font-family: norse, sans-serif;
+  color: white;
 }
 
 .content {
