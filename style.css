@@ -10,6 +10,17 @@ p {
   font-family: sans-serif;
 }
 
+input {
+  width: 18vw;
+}
+
+label {
+  color: #59626c;
+  font-size: 0.75rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 .page-container {
   display: flex;
   width: 100%;
@@ -100,11 +111,13 @@ p {
 
 .preamble,
 .submission,
-.hoorah {
+.hoorah,
+[class^='fields-'] {
   padding: 20px 3vw;
 }
 
 .hoorah {
+  padding-bottom: 0;
   color: #1f2937;
   font-size: 22px;
   font-weight: bold;
@@ -176,7 +189,28 @@ p {
 }
 
 .sign-up-form .fields {
-  padding: 20px;
   margin-bottom: 8px;
   box-shadow: 0px 5px 5px 0px #dddddd;
+}
+
+.fields {
+  display: flex;
+  flex-direction: row;
+}
+
+.fields-left,
+.fields-right {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5vh;
+}
+
+.fields-right {
+  padding-left: 2vw;
+}
+
+[class^='suf'] {
+  margin: 1vh 0vh;
+  display: flex;
+  flex-direction: column;
 }
