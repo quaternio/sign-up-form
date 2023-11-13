@@ -1,5 +1,5 @@
 # TODO
 
 - [x] Eat Cheesecake
-- [ ] Add form validation
-- [ ] Change the input border color
+- [x] Add form validation
+- [x] Change the input border color
